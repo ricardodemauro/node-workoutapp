@@ -14,6 +14,9 @@ var app = express();
 
 mongoose.connect('mongodb://localhost/workout_tracker');
 
+app.disable('x-powered-by');
+app.set('etag', false); // turn off
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
