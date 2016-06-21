@@ -1,0 +1,272 @@
+[
+  {
+    "nome": "Piaţa Cipariu",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.600800037384033,
+      46.76758746952729
+    ]
+  },
+  {
+    "nome": "Chelsea English Bar",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.60144362240069,
+      46.767475136739534
+    ]
+  },
+  {
+    "nome": "Restaurant Bolero",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.601679801940918,
+      46.76761686478674
+    ]
+  },
+  {
+    "nome": "Adi's Steak-House",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.6006498336792,
+      46.76695546756867
+    ]
+  },
+  {
+    "nome": "La Perne",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.598554062222455,
+      46.76593612249601
+    ]
+  },
+  {
+    "nome": "XI.B",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.599157917286238,
+      46.767584481375
+    ]
+  },
+  {
+    "nome": "Liceul de Coregrafie și Artă Dramatică \"Octavian Stroia\"",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.597808985031335,
+      46.76755175817441
+    ]
+  },
+  {
+    "nome": "Club Kangoo Jumps",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.598897458999414,
+      46.765751927184176
+    ]
+  },
+  {
+    "nome": "Aerocenter",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.60070177845565,
+      46.766994645238434
+    ]
+  },
+  {
+    "nome": "FCN",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.598301143263072,
+      46.76751404035835
+    ]
+  },
+  {
+    "nome": "Sapientia EMTE",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.59840214252472,
+      46.76636755211272
+    ]
+  },
+  {
+    "nome": "Romcall",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.6,
+      46.766667
+    ]
+  },
+  {
+    "nome": "Mania",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.6,
+      46.766667
+    ]
+  },
+  {
+    "nome": "Prezent Marketing",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.599999999999994,
+      46.76667
+    ]
+  },
+  {
+    "nome": "Restaurant Firenze",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.599999999999994,
+      46.76667
+    ]
+  },
+  {
+    "nome": "La Donna",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.6,
+      46.766667
+    ]
+  },
+  {
+    "nome": "Contessa",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.6,
+      46.766667
+    ]
+  },
+  {
+    "nome": "Direcția Generală de Pașapoarte",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.600582107704067,
+      46.76620722668768
+    ]
+  },
+  {
+    "nome": "Servicul Public Comunitar Eliberarea și Evidența Pașapoartelor Cluj",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.60034942626953,
+      46.76635285414411
+    ]
+  },
+  {
+    "nome": "sala teatru",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.597777,
+      46.767342
+    ]
+  },
+  {
+    "nome": "El Toro Steakhouse",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.59950461785216,
+      46.76794860668958
+    ]
+  },
+  {
+    "nome": "Salon Cosmetică Canină",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.60191583633423,
+      46.766779093605635
+    ]
+  },
+  {
+    "nome": "Stația Piața Cipariu",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.601171912820668,
+      46.76771454984428
+    ]
+  },
+  {
+    "nome": "La Bucovina",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.601470439002146,
+      46.767602438235755
+    ]
+  },
+  {
+    "nome": "ING Bank",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.601414385803377,
+      46.7676966638399
+    ]
+  },
+  {
+    "nome": "ASTRU CLUJ",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.598734736442566,
+      46.767583795118725
+    ]
+  },
+  {
+    "nome": "Sala 5 - XI",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.597856049654037,
+      46.767420727045746
+    ]
+  },
+  {
+    "nome": "Fistiq",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.599576950073242,
+      46.76792551404268
+    ]
+  },
+  {
+    "nome": "Spider Tuning",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.600051574490276,
+      46.76503035951208
+    ]
+  },
+  {
+    "nome": "Eco Farmacia",
+    "tag": [ "mock" ],
+    "descricao": "mock data",
+    "loc": [
+      23.600124322127215,
+      46.76748467352989
+    ]
+  }
+]

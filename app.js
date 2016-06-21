@@ -4,15 +4,39 @@ var express = require('express'),
     morgan = require('morgan'),
     logger = require('./utils/logger.js'),
     bodyParser = require('body-parser'),
-    mongoose = require('mongoose');
+    mongoose = require('mongoose'),
+    fs = require('fs');
 
 var routes = require('./routes/index'),
     users = require('./routes/users'),
-    workouts = require('./routes/workouts');
+    workouts = require('./routes/workouts'),
+    estabelecimentos = require('./routes/estabelecimentos');
+
+var constants = require('./constants'),
+    estabelecimento = require('./models/estabelecimento').Estabelecimento;
 
 var app = express();
 
-mongoose.connect('mongodb://localhost/workout_tracker');
+mongoose.connect(constants.connectionString, function(err) {
+  if(err) throw err;
+
+  var data = JSON.parse(fs.readFileSync("./utils/data.json", 'utf8'));
+
+  var callback = function(err) {
+    if(err) throw err;
+  }
+
+  estabelecimento.remove(function(){
+    for(var i = 0; i < data.length; i++) {
+      var doc = new estabelecimento();
+      doc.nome = data[i].nome;
+      doc.descricao = data[i].descricao;
+      doc.tag = data[i].tag;
+      doc.loc = data[i].loc;
+      doc.save(callback);
+    }
+  });
+});
 
 app.disable('x-powered-by');
 app.set('etag', false); // turn off
@@ -33,9 +57,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
-app.use('/workouts', workouts);
+app.use(constants.routes.root.uri, routes);
+app.use(constants.routes.user.uri, users);
+app.use(constants.routes.workout.uri, workouts);
+app.use(constants.routes.estabelecimento.uri, estabelecimentos);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
