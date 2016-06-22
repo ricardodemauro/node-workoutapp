@@ -1,5 +1,6 @@
 var constants = {
    connectionString: 'mongodb://localhost/workout_tracker',
+   uri: 'http://localhost:3000/',
    messages: {
        not_foud_exception: 'Document not found',
        generic_exception: 'Exception: ',
@@ -24,6 +25,12 @@ var constants = {
        root: {
            uri: '/',
            name: 'root'
+       }
+   },
+   models: {
+       empresa: {
+           distance: 8,
+           limit: 10
        }
    }
 };
