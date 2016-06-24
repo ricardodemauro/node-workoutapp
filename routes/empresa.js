@@ -1,93 +1,67 @@
 var express = require('express'),
     router = express.Router(),
-    estabelecimento = require('../models/estabelecimento').Estabelecimento,
+    empresaDb = require('../models/empresa'),
+    empresaRepository = require('../models/empresaRepository'),
     messages = require('../constants').messages,
     utils = require('../utils/utils').Utils,
-    constants = require('../constants');
+    constants = require('../constants'),
+    empresaDb = require('../models/empresa');
 
 
 router.get('/', function(req, res, next) {
-    estabelecimento.find({}, function(err, docs) {
-        if(!err) {
-            res.status(200).json({ estabelecimentos: docs });
-        } 
-        else {
-            res.status(500).json({ message: err });
-        }
-    });
+    empresaRepository.init(empresaDb)
+        .list(function(err, docs) {
+            if(!err) {
+                res.status(200).json({ estabelecimentos: docs });
+            } 
+            else {
+                res.status(500).json({ message: err });
+            }
+        });
 }).
 get('/:id', function(req, res, next) {
     var id = req.params.id;
-    estabelecimento.findById(id, function(err, doc) {
-	    if(!err && doc) {
-            res.status(200).json(doc);
-        } 
-        else if(err) {
-            res.status(500).json({ message: messages.generic_exception + err });
-        }
-        else {
-            res.status(404).json({ message: messages.not_foud_exception });
-        }
-  });
+    empresaRepository.init(empresaDb)
+        .findById(id, function(err, doc) {
+            if(!err && doc) {
+                res.status(200).json(doc);
+            } 
+            else if(err) {
+                res.status(500).json({ message: messages.generic_exception + err });
+            }
+            else {
+                res.status(404).json({ message: messages.not_foud_exception });
+            }
+        });
 }).
 get('/:longitude/:latitude', function(req, res, next) {
-    var limit = req.params.limit || 10;
-    // get the max distance or set it to 8 kilometers
-    var maxDistance = req.params.distance || 8;
-
-    // get coordinates [ <longitude> , <latitude> ]
-    var coords = [];
-    coords[0] = req.params.longitude || 0;
-    coords[1] = req.params.latitude || 0;
-    estabelecimento.find({
-        loc: {
-            $near: coords,
-            $maxDistance: maxDistance
-      }
-    }).limit(limit).exec(function(err, documents) {
-        if(err) {
-          return res.status(500).json({ message: messages.generic_exception + err });
-        }
-        res.status(200).json(documents);
-    });
+    var limit = req.params.limit || constants.models.empresa.limit;
+    var maxDistance = req.params.distance || constants.models.empresa.distance;
+    var longitude = req.params.longitude || 0;
+    var latitude = req.params.latitude || 0;
+    
+    empresaRepository.init(empresaDb)
+        .findByLocation(longitude, latitude, limit, maxDistance, function(err, documents) {
+            if(err) {
+                return res.status(500).json({ message: messages.generic_exception + err });
+            }
+            res.status(200).json(documents);
+        });
 }).
 post('/', function(req, res, next) {
     var baseUri = req.protocol + '://' + req.get('Host');
-    var nome = req.body.nome; 
-    var descricao = req.body.descricao; 
-    var tag = req.body.tag;
-    var loc = req.body.loc;
+    var document = req.body;
 
-    // Using RegEx - search is case insensitive
-    estabelecimento.findOne({ name: { $regex: new RegExp(nome, "i") } }, function(err, doc) { 
-        if(!err && !doc) {
-            var doc = new estabelecimento();
-
-            doc.nome = nome;
-            doc.descricao = descricao;
-            doc.tag = tag;
-            doc.loc = loc;
-            
-            doc.save(function(err) {
-                if(!err) {
-                    var hateoasLink = utils.hateoas.addHateoasSelfLink(baseUri, constants.routes.estabelecimento.uri, doc.id);
-                    res.status(201).json({
-                        nome: doc.nome,
-                        links: hateoasLink
-                    });
-                } 
-                else {
+    empresaRepository.init(empresaDb)
+        .create(document, function(err, doc) { 
+            if(err && !doc) {
                 res.status(500).json({ message: messages.generic_exception + err });
-                }
-            });
-        } 
-        else if(!err) {
-            res.status(403).json({ message: messages.duplicated} );
-        } 
-        else {
-            res.status(500).json({ message: err });
-        }
-  });
+            }
+            else {
+                var hateoasLink = utils.hateoas.addHateoasSelfLink(baseUri, constants.routes.estabelecimento.uri, doc.id);
+                res.status(201).json({ nome: doc.nome, links: hateoasLink });
+            }
+        });
 }).
 put('/:id', function(req, res, next) {
     var baseUri = req.protocol + '://' + req.get('Host');

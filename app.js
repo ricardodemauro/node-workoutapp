@@ -10,10 +10,11 @@ var express = require('express'),
 var routes = require('./routes/index'),
     users = require('./routes/users'),
     workouts = require('./routes/workouts'),
-    estabelecimentos = require('./routes/estabelecimentos');
+    empresa = require('./routes/empresa');
 
 var constants = require('./constants'),
-    estabelecimento = require('./models/estabelecimento').Estabelecimento;
+    empresaRepository = require('./models/empresaRepository'),
+    empresaDb = require('./models/empresa');
 
 var app = express();
 
@@ -26,12 +27,14 @@ mongoose.connect(constants.connectionString, function(err) {
     if(err) throw err;
   }
 
-  estabelecimento.remove(function(){
+  empresaDb.remove(function(){0
     for(var i = 0; i < data.length; i++) {
-      var doc = new estabelecimento();
-      doc.nome = data[i].nome;
-      doc.descricao = data[i].descricao;
-      doc.tag = data[i].tag;
+      var doc = new empresaDb();
+      for(var p in data[i]) {
+        doc[p] = data[i][p];  
+      }
+      doc.telefone = data[i].telefone;
+      doc.tag = data[i].data;
       doc.loc = data[i].loc;
       doc.save(callback);
     }
@@ -60,7 +63,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(constants.routes.root.uri, routes);
 app.use(constants.routes.user.uri, users);
 app.use(constants.routes.workout.uri, workouts);
-app.use(constants.routes.estabelecimento.uri, estabelecimentos);
+app.use(constants.routes.empresa.uri, empresa);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

@@ -10,9 +10,9 @@ var constants = {
        removed: 'Document removed'
    },
    routes: {
-       estabelecimento: {
-           uri: '/estabelecimentos',
-           name: 'estabelecimentos'
+       empresa: {
+           uri: '/empresa',
+           name: 'empresa'
        },
        workout: {
            uri: '/workouts',

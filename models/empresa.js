@@ -1,70 +1,93 @@
 var mongoose = require('mongoose'), 
     Schema = mongoose.Schema;
-      
-var empresaSchema = new Schema({
-    nome : { 
-        type: String, 
-        required: true, 
-        trim: true,
-        index: { unique: true } 
-    }, 
-    cnpj: {
-        type: Number,
-        required: true,
-        index: { unique: true }
+
+var telefoneSchema = {
+    ddi: {
+        type: Number
     },
-    descricao: {
-        type: String,
-        required: false
+    ddd: {
+        type: Number
     },
-    classificacao: {
+    numero: {
         type: Number,
         required: true,
         index: { unique: false }
-    },
-    classificacao_interna: {
-        type: Number,
-        required: true,
-        index: { unique: false }
-    },
-    telefone: {
-        type: [String]
-    },
-    email: {
-        type: [String]
-    },
-    rede_social: {
-        type: [String]
-    },
-    endereco: {
-        type: String,
+    }
+};
+
+var enderecoSchema = {
+    rua: {
+        type: 'string',
         required: true
     },
+    numero: {
+        type: 'string'
+    },
+    bairro: {
+        type: 'string'
+    },
+    cidade: {
+        type: 'string'
+    },
+    estado: {
+        type: 'string'
+    },
+    pais: {
+        type: 'string'
+    }
+};
+
+var empresaSchema = new Schema({
+    nome_fantasia : { 
+        type: 'string', 
+        required: true, 
+        maxlength: 50,
+        minlength: 3,
+        trim: true,
+        index: { unique: true },
+    }, 
+    cnpj: {
+        type: 'number'
+    },
+    classificacao: {
+        type: 'number'
+    },
+    classificacao_interna: {
+        type: 'number'
+    },
+    telefone: {
+        type: [telefoneSchema]
+    },
+    email: {
+        type: ['string']
+    },
+    rede_social: {
+        type: ['string']
+    },
+    endereco: {
+        type: enderecoSchema
+    },
     atividade: {
-        type: Number,
-        required: false,
-        index: { unique: false }
+        type: 'number'
     },
     uri_foto: {
-        type: String,
-        required: false,
+        type: 'string'
     },
     uri_foto_secundaria: {
-        type: [String]
+        type: ['string']
     },
     descricao_servico: {
-        type: String
+        type: 'string'
     },
     tag: {
-        type: [String],
-        required: false
+        type: ['string']
     },
     loc: {
-        type: [Number],
+        type: ['number'],
         index: '2d'
     },
     date_created : { 
-        type: Date, 
+        type: 'date', 
         required: true, 
         default: Date.now 
     }

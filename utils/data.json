@@ -1,6 +1,16 @@
 [
   {
-    "nome": "Piaţa Cipariu",
+    "nome_fantasia": "Piaţa Cipariu",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -9,7 +19,17 @@
     ]
   },
   {
-    "nome": "Chelsea English Bar",
+    "nome_fantasia": "Chelsea English Bar",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -18,7 +38,17 @@
     ]
   },
   {
-    "nome": "Restaurant Bolero",
+    "nome_fantasia": "Restaurant Bolero",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -27,7 +57,17 @@
     ]
   },
   {
-    "nome": "Adi's Steak-House",
+    "nome_fantasia": "Adi's Steak-House",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -36,7 +76,17 @@
     ]
   },
   {
-    "nome": "La Perne",
+    "nome_fantasia": "La Perne",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -45,7 +95,17 @@
     ]
   },
   {
-    "nome": "XI.B",
+    "nome_fantasia": "XI.B",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -54,7 +114,17 @@
     ]
   },
   {
-    "nome": "Liceul de Coregrafie și Artă Dramatică \"Octavian Stroia\"",
+    "nome_fantasia": "Liceul de Coregrafie si Arta Dramatică",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -63,7 +133,17 @@
     ]
   },
   {
-    "nome": "Club Kangoo Jumps",
+    "nome_fantasia": "Club Kangoo Jumps",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -72,7 +152,17 @@
     ]
   },
   {
-    "nome": "Aerocenter",
+    "nome_fantasia": "Aerocenter",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -81,7 +171,17 @@
     ]
   },
   {
-    "nome": "FCN",
+    "nome_fantasia": "FCN",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -90,7 +190,17 @@
     ]
   },
   {
-    "nome": "Sapientia EMTE",
+    "nome_fantasia": "Sapientia EMTE",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -99,7 +209,17 @@
     ]
   },
   {
-    "nome": "Romcall",
+    "nome_fantasia": "Romcall",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -108,7 +228,17 @@
     ]
   },
   {
-    "nome": "Mania",
+    "nome_fantasia": "Mania",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -117,7 +247,17 @@
     ]
   },
   {
-    "nome": "Prezent Marketing",
+    "nome_fantasia": "Prezent Marketing",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -126,7 +266,17 @@
     ]
   },
   {
-    "nome": "Restaurant Firenze",
+    "nome_fantasia": "Restaurant Firenze",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -135,7 +285,17 @@
     ]
   },
   {
-    "nome": "La Donna",
+    "nome_fantasia": "La Donna",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -144,7 +304,17 @@
     ]
   },
   {
-    "nome": "Contessa",
+    "nome_fantasia": "Contessa",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -153,7 +323,17 @@
     ]
   },
   {
-    "nome": "Direcția Generală de Pașapoarte",
+    "nome_fantasia": "Directia Generala de Pasapoarte",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -162,7 +342,17 @@
     ]
   },
   {
-    "nome": "Servicul Public Comunitar Eliberarea și Evidența Pașapoartelor Cluj",
+    "nome_fantasia": "Servicul Public Comunitar Eliberarea",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -171,7 +361,17 @@
     ]
   },
   {
-    "nome": "sala teatru",
+    "nome_fantasia": "sala teatru",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -180,7 +380,17 @@
     ]
   },
   {
-    "nome": "El Toro Steakhouse",
+    "nome_fantasia": "El Toro Steakhouse",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -189,7 +399,17 @@
     ]
   },
   {
-    "nome": "Salon Cosmetică Canină",
+    "nome_fantasia": "Salon Cosmetică Canină",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -198,7 +418,17 @@
     ]
   },
   {
-    "nome": "Stația Piața Cipariu",
+    "nome_fantasia": "Statia Piata Cipariu",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -207,7 +437,17 @@
     ]
   },
   {
-    "nome": "La Bucovina",
+    "nome_fantasia": "La Bucovina",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -216,7 +456,17 @@
     ]
   },
   {
-    "nome": "ING Bank",
+    "nome_fantasia": "ING Bank",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -225,7 +475,17 @@
     ]
   },
   {
-    "nome": "ASTRU CLUJ",
+    "nome_fantasia": "ASTRU CLUJ",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -234,7 +494,17 @@
     ]
   },
   {
-    "nome": "Sala 5 - XI",
+    "nome_fantasia": "Sala 5 - XI",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -243,7 +513,17 @@
     ]
   },
   {
-    "nome": "Fistiq",
+    "nome_fantasia": "Fistiq",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -252,7 +532,17 @@
     ]
   },
   {
-    "nome": "Spider Tuning",
+    "nome_fantasia": "Spider Tuning",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
@@ -261,7 +551,17 @@
     ]
   },
   {
-    "nome": "Eco Farmacia",
+    "nome_fantasia": "Eco Farmacia",
+    "cnpj": 57831677000199,
+    "classificacao": 1,
+    "classificacao_interna": 1,
+    "telefone": [ { "ddi": 55, "ddd": 11, "numero": 333311112 }, { "ddi": 55, "ddd": 11, "numero": 333311112 }],
+    "email": [ "email@email.com", "email2@email.com" ],
+    "rede_social": [ "facebook.com/rede1", "twitter.com/rede2" ],
+    "endereco": { "rua": "Gomes de Carvalho", "numero": "S/N", "bairro": "Vila Olimpia", "cidade": "Sao Paulo", "estado": "SP", "Pais": "BR" },
+    "atividade": 1,
+    "uri_foto": "meusite.com/foto1.jpeg", "uri_foto_secundaria": [ "meusite.com/foto2.jpeg", "meusite.com/foto3" ],
+    "descricao_servico": "Servico de lavagem de carros",
     "tag": [ "mock" ],
     "descricao": "mock data",
     "loc": [
